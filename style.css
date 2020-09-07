@@ -1,0 +1,21 @@
+body {
+    background: #eeeeee;
+    justify-content: center;
+}
+
+.space {
+    margin: 20%;
+}
+
+#links > a > img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 1rem;
+}
+
+@media (min-width: 1000px) {
+    p {
+        width: 50%;
+        transform: translateX(50%);
+    }
+}
